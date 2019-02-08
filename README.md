@@ -14,4 +14,4 @@ DataSet :
 
 
 I got some help from URL belows which also implement TensorFlow Examples
-https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/neural_network.py
+https://github.com/aymericdamien/TensorFlow-Examples/
