@@ -1,4 +1,4 @@
-# Jinwon-model
+# TensorFlow-model
 Models implemented by Jinwon Lee
 
 DataSet :
