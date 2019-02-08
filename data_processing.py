@@ -41,6 +41,17 @@ def try_download_and_extract(name="mnist"):
 
         os.remove(location)
 
-#def get_dataset(name="mnist", mode="train") :
+def get_dataset(name="mnist", mode="train", data_dir="/Users/jwl1993/dataset/") :
+    if name == "mnist" :
+        directory = data_dir + name + "/"
+        dataset = input_data.read_data_sets(directory)
+    elif name == "cifar10" :
+        dataset = None
+        #[XXX] Processing data for cifar 10
+        pass
+    elif name == "cifar100" :
+        dataset = None
+        #[XXX] Processing data for cifar 100
+        pass
 
-
+    return dataset
