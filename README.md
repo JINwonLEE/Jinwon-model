@@ -9,3 +9,9 @@ DataSet :
     Cifar10 : 32 X 32, 50000, 10000 => 
 
     Cifar100 : 32 X 32, 50000, 10000 =>
+
+
+
+
+I got some help from URL belows which also implement TensorFlow Examples
+https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/neural_network.py
